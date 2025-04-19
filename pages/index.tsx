@@ -41,7 +41,7 @@ const Home = () => {
             className="h1"
           >
             <div className="flex items-center justify-center gap-x-2 xl:justify-start xl:mb-[10px] vsm:text-2xl vsm:mt-10 md:text-3xl xl:text-6xl">
-              Hi! Welcome
+              Hey there!
               <HiFaceSmile className="animate-bounce text-gray-800 dark:text-gray-100" />{" "}
               <br />
             </div>
@@ -53,9 +53,11 @@ const Home = () => {
             exit="hidden"
             className="max-w-sm text-black xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16 vsm:-mt-3 xl:text-xl xl:-mt-5 dark:text-white"
           >
-            As a skilled Frontend developer, I am dedicated to turning ideas
-            into innovative web applications. Explore my latest projects and
-            articles, showcasing my expertise in React.js and web development.
+            I’m a full-stack dev who loves turning complex problems into simple,
+            elegant solutions on the web. With 4+ years of experience in
+            Laravel, JavaScript, and modern frameworks like React and NestJS, I
+            build things that work well, look good, and scale smart. Always
+            learning, always building.
             <Link
               href="https://drive.google.com/file/d/1vtIGvqEoWWSNHkUYFQJsWPFkeTC-CqnG/view?usp=sharing"
               target="_blank"

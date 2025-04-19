@@ -11,7 +11,6 @@ const About = () => {
   const [index, setIndex] = useState(0);
   return (
     <div className="py-10 md:py-16 xl:py-32 pb-16 text-center xl:text-left vsm:relative static">
-
       <div className="container mx-auto h-full flex flex-col items-center xl:flex-row gap-x-6 xl:justify-start">
         <div className="flex-1 flex flex-col justify-center">
           {/* heading */}
@@ -32,7 +31,16 @@ const About = () => {
             exit="hidden"
             className=" text-sm md:text-lg max-w-[500px] text-black mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0 dark:text-white"
           >
-            My name is Peace Oghenevwefe, I am a committed Frontend developer, with a strong skill set that encompasses various web technologies. My experience has exposed me to working with individuals from diverse cultural backgrounds, and I thrive in a collaborative, cross-functional team environment. My primary focus is on producing exceptional web and mobile applications, and I am dedicated to continually improving my skills to provide top-notch solutions.
+            Hey there! I’m a full-stack developer with a solid background in PHP
+            (especially Laravel), JavaScript, and TypeScript. I’ve been building
+            apps and APIs for over 4 years — everything from financial tools to
+            eCommerce platforms. I love writing clean, scalable code and
+            figuring out how to make things faster, smoother, and more
+            intuitive. I’ve worked across the stack, dabbled in DevOps, and I’m
+            always up for learning something new. When I’m not coding, I’m
+            probably gaming (CODM is my go-to), reading something techy or
+            motivational, or just catching up with friends and family. Let’s
+            build something cool together.
           </motion.p>
           {/* countUp */}
           <motion.div
@@ -45,7 +53,7 @@ const About = () => {
             <div className="flex flex-1 gap-x-6">
               <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
                 <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
-                  <CountUp start={0} end={3} duration={7} /> +
+                  <CountUp start={0} end={5} duration={7} /> +
                 </div>
                 <div className="text-xs uppercase tracking-[1px] leading[1.4] xl:max-w-[100px]">
                   Year of experience
@@ -74,10 +82,12 @@ const About = () => {
             {aboutData.map((item, i) => (
               <div
                 key={i}
-                className={`${index === i &&
+                className={`${
+                  index === i &&
                   "text-accent after:w-[100%] after:bg-accent after:transition-all after:duration-300"
-                  } cursor-pointer capitalize xl:text-lg relative after:w-8 after:h-[2px] ${index !== i && "after:bg-white"
-                  } after:absolute after:-bottom-1 after:left-0`}
+                } cursor-pointer capitalize xl:text-lg relative after:w-8 after:h-[2px] ${
+                  index !== i && "after:bg-white"
+                } after:absolute after:-bottom-1 after:left-0`}
                 onClick={() => setIndex(i)}
               >
                 {item.title}
@@ -90,12 +100,17 @@ const About = () => {
                 key={i}
                 className="flex-1 flex flex-col xl:flex-row max-w-max gap-x-2 items-center text-black/60 text-sm dark:text-white"
               >
-                <div className="font-600 mb-2 xl:mb-0 xl:w-max">{item.title}</div>
+                <div className="font-600 mb-2 xl:mb-0 xl:w-max">
+                  {item.title}
+                </div>
                 <div className="hidden xl:flex">-</div>
                 <div className="font-bold">{item.stage}</div>
                 <div className="flex gap-x-4 flex-wrap md:flex-nowrap justify-center gap-y-2">
                   {item.icons?.map((icon, i) => (
-                    <div key={i} className="sm:text-sm md:text-2xl text-black dark:text-white">
+                    <div
+                      key={i}
+                      className="sm:text-sm md:text-2xl text-black dark:text-white"
+                    >
                       {icon}
                     </div>
                   ))}
