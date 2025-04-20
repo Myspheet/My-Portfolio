@@ -21,7 +21,7 @@ const Socials = () => {
       <Link
         href={"https://www.linkedin.com/in/promiseoghenevwefe"}
         target="_blank"
-        className="transition-all duration-300 text-[#55ACEE] hover:-translate-y-1 hover:scale-125"
+        className="transition-all duration-300 text-[#F5A623] hover:-translate-y-1 hover:scale-125"
       >
         <RiLinkedinFill />
       </Link>
