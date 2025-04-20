@@ -53,11 +53,10 @@ const Home = () => {
             exit="hidden"
             className="max-w-sm text-black xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16 vsm:-mt-3 xl:text-xl xl:-mt-5 dark:text-white"
           >
-            I’m a full-stack dev who loves turning complex problems into simple,
-            elegant solutions on the web. With 4+ years of experience in
-            Laravel, JavaScript, and modern frameworks like React and NestJS, I
-            build things that work well, look good, and scale smart. Always
-            learning, always building.
+            I’m a full-stack developer who’s been coding since 2015. I love
+            building clean, scalable web apps using Laravel, JavaScript, React,
+            NestJS and Golang. From backend logic to frontend polish, I enjoy
+            turning ideas into digital products that just work.
             <Link
               href="https://drive.google.com/file/d/1vtIGvqEoWWSNHkUYFQJsWPFkeTC-CqnG/view?usp=sharing"
               target="_blank"

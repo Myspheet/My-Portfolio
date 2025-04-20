@@ -17,6 +17,13 @@ import {
   SiFramer,
   SiGraphql,
   SiMysql,
+  SiPostgresql,
+  SiMongodb,
+  SiMongoose,
+  SiLaravel,
+  SiNestjs,
+  SiExpress,
+  SiBootstrap,
 } from "react-icons/si";
 
 export const aboutData = [
@@ -24,29 +31,33 @@ export const aboutData = [
     title: "skills",
     info: [
       {
-        title: "Web Development",
+        title: "Programing Languages",
+        stage: "",
+        icons: [<FaJs key={1} />, <FaPhp key={2} />],
+      },
+      {
+        title: "Database",
         stage: "",
         icons: [
-          <FaHtml5 key={1} />,
-          <FaCss3 key={2} />,
-          <FaJs key={3} />,
-          <FaReact key={4} />,
-          <FaPhp key={5} />,
-          <SiNextdotjs key={6} />,
-          <FaMagento key={7} />,
-          <SiTailwindcss key={8} />,
-          <FaNodeJs key={9} />,
-          <SiGraphql key={10} />,
-          <SiMysql key={11} />,
+          <SiMysql key={3} />,
+          <SiPostgresql key={4} />,
+          <SiMongodb key={5} />,
+          <SiMongoose key={6} />,
         ],
       },
       {
-        title: "UI / UX",
-        icons: [<SiFramer key={1} />],
+        title: "Web Framework",
+        stage: "",
+        icons: [
+          <SiLaravel key={7} />,
+          <SiNestjs key={8} />,
+          <SiExpress key={9} />,
+        ],
       },
       {
-        title: "Word Processing",
-        icons: [<SiMicrosoftword key={2} />],
+        title: "Css Framework",
+        stage: "",
+        icons: [<SiBootstrap key={10} />, <SiTailwindcss key={11} />],
       },
     ],
   },
@@ -54,23 +65,48 @@ export const aboutData = [
     title: "experience",
     info: [
       {
-        title: "Frontend Developer - EVE",
-        stage: "July 2024 - Present",
+        title: "Senior Developer  - Cloudax",
+        stage: "Feb 2024 - Present",
         icons: [],
       },
       {
         title: "Fullstack Developer - Freelance",
-        stage: "May 2024 - July 2024",
+        stage: "May 2018 - Present",
         icons: [],
       },
       {
-        title: "Junior Web Developer - Scandiweb",
-        stage: "September 2022 - June 2023",
+        title: "Web Developer  - Screenpages (Contract)",
+        stage: "Jan 2023 - May 2023",
         icons: [],
       },
       {
-        title: "React Intern - LinuxJobber",
-        stage: "2022",
+        title: "Web Developer  - Corra (Contract)",
+        stage: "Dec 2021 - Dec 2022",
+        icons: [],
+      },
+      {
+        title: "Web Developer  - Scandiweb (Contract)",
+        stage: "May 2021 - June 2023",
+        icons: [],
+      },
+      {
+        title: "Fullstack Developer - Techclub Ng (Freelance)",
+        stage: "Mar 2022 - Present",
+        icons: [],
+      },
+      {
+        title: "Fullstack Developer/Tutor - Techclub Ng",
+        stage: "Feb 2020 - 2022",
+        icons: [],
+      },
+      {
+        title: "Intern - Linuxjobber",
+        stage: "Nov 2019 - Feb 2020",
+        icons: [],
+      },
+      {
+        title: "Intern - Rich Technologies",
+        stage: "Feb 2017 - December 2017",
         icons: [],
       },
     ],
@@ -79,13 +115,8 @@ export const aboutData = [
     title: "Education",
     info: [
       {
-        title: "Bachelor Of Engineering - University Of Benin",
-        stage: "2018 - 2022",
-        icons: [],
-      },
-      {
-        title: "SSCE - Institutue Of Continuous Education",
-        stage: "2016",
+        title: "BSc. Computer Science - University Of Benin",
+        stage: "",
         icons: [],
       },
     ],

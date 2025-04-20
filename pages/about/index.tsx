@@ -31,16 +31,18 @@ const About = () => {
             exit="hidden"
             className=" text-sm md:text-lg max-w-[500px] text-black mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0 dark:text-white"
           >
-            Hey there! I’m a full-stack developer with a solid background in PHP
-            (especially Laravel), JavaScript, and TypeScript. I’ve been building
-            apps and APIs for over 4 years — everything from financial tools to
-            eCommerce platforms. I love writing clean, scalable code and
-            figuring out how to make things faster, smoother, and more
-            intuitive. I’ve worked across the stack, dabbled in DevOps, and I’m
-            always up for learning something new. When I’m not coding, I’m
-            probably gaming (CODM is my go-to), reading something techy or
-            motivational, or just catching up with friends and family. Let’s
-            build something cool together.
+            I started my coding journey in 2015 and landed my first internship
+            in 2017 while studying Computer Science. After earning my degree in
+            2018, I’ve continued to grow as a full-stack developer, working on
+            everything from financial tools to eCommerce platforms. My core
+            stack includes PHP (especially Laravel), JavaScript/TypeScript,
+            React, NestJS and Golang, and I’m comfortable across both backend
+            and frontend. I care about writing clean, maintainable code and
+            building user-friendly, high-performing apps. Whether it’s
+            collaborating with a team or building solo projects, I’m always
+            learning, always building. When I’m not coding, you’ll probably find
+            me gaming, reading tech blogs or hanging out with friends and
+            family.
           </motion.p>
           {/* countUp */}
           <motion.div
@@ -53,7 +55,7 @@ const About = () => {
             <div className="flex flex-1 gap-x-6">
               <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
                 <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
-                  <CountUp start={0} end={5} duration={7} /> +
+                  <CountUp start={0} end={8} duration={7} /> +
                 </div>
                 <div className="text-xs uppercase tracking-[1px] leading[1.4] xl:max-w-[100px]">
                   Year of experience
