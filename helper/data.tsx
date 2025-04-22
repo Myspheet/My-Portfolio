@@ -122,3 +122,5 @@ export const aboutData = [
     ],
   },
 ];
+
+export const baseUrl = "https://myspheet.vercel.app";
